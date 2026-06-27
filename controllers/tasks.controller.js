@@ -21,7 +21,9 @@ const createTask = async (req, res) => {
         res.status(201).json(newTask);
 
     } catch (err) {
-        res.status(500).json({ message: "Server error, please try again after sometimes", message: err.message });
+        // res.status(500).json({ message: "Server error, please try again after sometimes", message: err.message });
+        (OR)
+        res.status(500).json({ message: "Server error, please try again after sometimes", error: err.message });
     }
 }
 
