@@ -1,9 +1,11 @@
 const mongoose = require("mongoose");
 
 const dbConnection = async () => {
-    try{
+    try {
         await mongoose.connect(process.env.atlasport);
+        // await mongoose.connect(process.env.atlasport);
         console.log("Database Connected");
+
     }catch(err){
         console.log(err);
         process.exit(1);

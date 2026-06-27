@@ -1,5 +1,5 @@
 {
-  "name": "day70-b43-backend",
+  "name": "day70-b43-backend-update1",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -7,14 +7,22 @@
     "dev": "nodemon main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunasekaran006-alt/day70-b43-backend.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gunasekaran006-alt/day70-b43-backend/issues"
+  },
+  "homepage": "https://github.com/gunasekaran006-alt/day70-b43-backend#readme",
   "dependencies": {
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "mongoose": "^9.6.3"
+    "mongoose": "^9.7.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
