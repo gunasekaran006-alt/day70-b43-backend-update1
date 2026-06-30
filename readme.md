@@ -1,5 +1,3 @@
-# Day 70 - Task Manager Backend (v1.0.0)
-
 A RESTful API built with Node.js, Express, and MongoDB (Mongoose) to manage tasks. This update transitions the application from using an in-memory array to a persistent MongoDB Atlas cloud database.
 
 ---
